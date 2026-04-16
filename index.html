@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>II SEAEQ - Semana Acadêmica de Engenharia de Alimentos e Engenharia Química</title>
 
-  
   <style>
     * {
       box-sizing: border-box;
@@ -265,6 +264,21 @@
       margin-bottom: 4px;
     }
 
+    .aviso-certificacao {
+      margin: 18px auto 0 auto;
+      max-width: 780px;
+      padding: 16px 18px;
+      background-color: #eef7ee;
+      border-left: 5px solid #1b5e20;
+      border-radius: 12px;
+      text-align: left;
+      color: #1f2d1f;
+    }
+
+    .aviso-certificacao strong {
+      color: #1b5e20;
+    }
+
     .membros {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -401,7 +415,7 @@
       </p>
 
       <div class="botoes-topo">
-        <a href="https://forms.gle/adiCGYRipJHJeySw7" class="botao-inscricao" target="_blank">
+        <a href="https://forms.gle/adiCGYRipJHJeySw7" class="botao-inscricao" target="_blank" rel="noopener noreferrer">
           Fazer inscrição
         </a>
 
@@ -409,8 +423,8 @@
           Ver programação
         </a>
 
-        <a href="https://script.google.com/macros/s/AKfycbwvPgFg-jOKr8FEERM93SbqtRQAD4sv1kobIr6J7SQjTRIVOJBXyucneWylcqByTzo4/exec" class="botao-certificado" target="_blank">
-          Emitir certificado
+        <a href="https://script.google.com/macros/s/AKfycbwm70FczIk9pPsWUFz161IO59_0NWgGRMmiY7_gLxexUo7SJQ-rx6A2jx5lBfLAs6T7/exec" class="botao-certificado" target="_blank" rel="noopener noreferrer">
+          Baixar certificados
         </a>
 
         <a href="#organizacao" class="botao-secundario">
@@ -450,11 +464,9 @@
                 <div class="lista-palestrantes">
                   <h4>Palestrantes convidados</h4>
                   <ul>
-                    <li>Thanise Cestonaro - Coordenadora de P&D no Grupo Doce D’ocê</li>
+                    <li>Thanise Cestonaro - Coordenadora de P&amp;D no Grupo Doce D’ocê</li>
                     <li>Tatiana R. Guillaumon - Gerente de Qualidade no Grupo Doce D’ocê</li>
-                    <li>Lucas Maycon Hoff Zeni - Engenheiro Químico-Analista de campo
-
-OP2 Engenharia Ambiental e Industrial </li>
+                    <li>Lucas Maycon Hoff Zeni - Engenheiro Químico, Analista de Campo na OP2 Engenharia Ambiental e Industrial</li>
                   </ul>
                 </div>
               </div>
@@ -465,6 +477,7 @@ OP2 Engenharia Ambiental e Industrial </li>
               <div class="texto">
                 <h3>Coffee Break</h3>
                 <p>Intervalo para confraternização entre os participantes.</p>
+                <p class="responsavel"><strong>Responsável:</strong> Comissão Organizadora</p>
               </div>
             </div>
 
@@ -499,7 +512,7 @@ OP2 Engenharia Ambiental e Industrial </li>
               <div class="texto">
                 <h3>Piquenique no Lago</h3>
                 <p>Momento de integração com lanches compartilhados entre os participantes.</p>
-                <p class="responsavel"><strong>Organização:</strong> Comissão Organizadora</p>
+                <p class="responsavel"><strong>Responsável:</strong> Comissão Organizadora</p>
               </div>
             </div>
 
@@ -510,6 +523,7 @@ OP2 Engenharia Ambiental e Industrial </li>
           <div class="timeline-marker"></div>
           <div class="timeline-date">Quarta-feira</div>
           <div class="timeline-content">
+
             <div class="evento">
               <span class="hora">04:00 às 20:00</span>
               <div class="texto">
@@ -518,6 +532,25 @@ OP2 Engenharia Ambiental e Industrial </li>
                 <p class="responsavel"><strong>Responsável:</strong> Prof. Gustavo Fidelis</p>
               </div>
             </div>
+
+            <div class="evento">
+              <span class="hora">16:00</span>
+              <div class="texto">
+                <h3>Coffee Break</h3>
+                <p>Intervalo para confraternização entre os participantes.</p>
+                <p class="responsavel"><strong>Responsável:</strong> Comissão Organizadora</p>
+              </div>
+            </div>
+
+            <div class="evento">
+              <span class="hora">16:30</span>
+              <div class="texto">
+                <h3>Sorteios</h3>
+                <p>Realização de sorteios ao final da programação do dia.</p>
+                <p class="responsavel"><strong>Responsável:</strong> Comissão Organizadora</p>
+              </div>
+            </div>
+
           </div>
         </div>
 
@@ -540,6 +573,7 @@ OP2 Engenharia Ambiental e Industrial </li>
               <div class="texto">
                 <h3>Coffee Break</h3>
                 <p>Intervalo das atividades do dia.</p>
+                <p class="responsavel"><strong>Responsável:</strong> Comissão Organizadora</p>
               </div>
             </div>
 
@@ -550,6 +584,7 @@ OP2 Engenharia Ambiental e Industrial </li>
           <div class="timeline-marker"></div>
           <div class="timeline-date">Sexta-feira</div>
           <div class="timeline-content">
+
             <div class="evento">
               <span class="hora">08:00 às 11:30</span>
               <div class="texto">
@@ -558,24 +593,27 @@ OP2 Engenharia Ambiental e Industrial </li>
                 <p class="responsavel"><strong>Ministrante:</strong> Profª Leda Quast</p>
               </div>
             </div>
-          </div>
-        </div>
-          <div class="evento">
-              <span class="hora">10:00</span>
+
+            <div class="evento">
+              <span class="hora">10:00 às 10:20</span>
               <div class="texto">
                 <h3>Coffee Break</h3>
-                <p>Intervalo para confraternização entre os participantes.</p>
+                <p>Intervalo rápido para confraternização entre os participantes.</p>
+                <p class="responsavel"><strong>Responsável:</strong> Comissão Organizadora</p>
               </div>
             </div>
 
             <div class="evento">
-              <span class="hora">11:00</span>
+              <span class="hora">11:00 às 11:30</span>
               <div class="texto">
-                <h3>Encerramento e Sorteios</h3>
-                <p>Fechamento da programação do dia e realização de sorteios.</p>
+                <h3>Sorteios</h3>
+                <p>Encerramento das atividades do dia com realização de sorteios.</p>
                 <p class="responsavel"><strong>Responsável:</strong> Comissão Organizadora</p>
               </div>
             </div>
+
+          </div>
+        </div>
 
         <div class="timeline-item">
           <div class="timeline-marker"></div>
@@ -586,11 +624,12 @@ OP2 Engenharia Ambiental e Industrial </li>
               <div class="texto">
                 <h3>Salsichão</h3>
                 <p>Atividade de confraternização com os participantes.</p>
-                <p class="responsavel"><strong>Organização:</strong> Comissão Organizadora</p>
+                <p class="responsavel"><strong>Responsável:</strong> Comissão Organizadora</p>
               </div>
             </div>
           </div>
         </div>
+
       </div>
     </section>
 
@@ -599,22 +638,16 @@ OP2 Engenharia Ambiental e Industrial </li>
       <p>Os certificados serão disponibilizados após o evento.</p>
       <p>Clique no botão abaixo para acessar a página de emissão.</p>
 
-      <div class="botoes-topo">
-    <section class="card" id="certificados">
-  <h2>Certificados</h2>
-  <p>Os certificados serão disponibilizados após o evento.</p>
-  <p>Clique no botão abaixo para acessar a página de emissão.</p>
+      <div class="aviso-certificacao">
+        <strong>Atenção:</strong> A certificação do evento será concedida apenas aos participantes que obtiveram mínimo de 75% de presença no evento, considerando a mesa redonda e os mini-cursos.
+      </div>
 
-  <div class="botoes-topo">
-    <a href="https://script.google.com/macros/s/AKfycbwm70FczIk9pPsWUFz161IO59_0NWgGRMmiY7_gLxexUo7SJQ-rx6A2jx5lBfLAs6T7/exec" 
-       target="_blank" 
-       class="botao-certificado">
-       Baixar certificados
-    </a>
-  </div>
-</section>
-        " class="botao-certificado" target="_blank">
-          Emitir certificado
+      <div class="botoes-topo">
+        <a href="https://script.google.com/macros/s/AKfycbwm70FczIk9pPsWUFz161IO59_0NWgGRMmiY7_gLxexUo7SJQ-rx6A2jx5lBfLAs6T7/exec"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="botao-certificado">
+          Baixar certificados
         </a>
       </div>
     </section>
